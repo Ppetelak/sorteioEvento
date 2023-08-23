@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.39.0/tsparticles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="img/AllCross_opapoesaude.png" alt="logo papo é saúde">      
+    </div>
+    <div class="container mt-5">
+        <div class="cabecalho">
+            <h2>Vamos testar sua sorte? 🤑</h2>
+            <p>Basta tocar em girar e aguardar o resultado, boa sorte ...</p>
+        </div>
+        <div class="resultado">
+            <p id="deuboa" class=" deuboa d-none"> PARABÉNS! Você ganhou </p>
+            <p id="deuruim" class="deuruim d-none"> Que pena 😥 Não foi dessa vez! </p>
+            <p id="numeroSorte" class="d-none">Número do bilhete:<strong> <%= numeroDaSorte %></strong></p>
+            <p></p>
+        </div>
+        <div class="roulette">
+            <div class="spinner"></div>
+            <div class="shadow"></div>
+            <div class="markers">
+                <div class="triangle">
+
+                </div>
+            </div>
+            <div>
+                <button onclick="spinner.spin(<%= valorEnviado %>)">GIRAR</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
