@@ -123,6 +123,10 @@ ol li{
     gap: 20px;
 }
 
+.aceiteTermos label{
+    font-size: 12px;
+}
+
 @media (max-width: 600px) {
     body{
         width: 90%;
