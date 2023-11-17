@@ -53,5 +53,5 @@ Entretando o uso da lógica e funcionalidade desde que não utilize a identidade
 
 ## 🤝 TIME
 
-Feito por [Pablo Petelak - Backend 👽](https://pablopetelak.com) enquanto DEV da [Mídia Ideal](https://midiaideal.com.br) 
+Feito por [Pablo Petelak - FullStack 👽](https://pablopetelak.com) enquanto DEV da [Mídia Ideal](https://midiaideal.com.br) 
 
