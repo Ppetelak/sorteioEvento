@@ -18,7 +18,7 @@ Roleta online após preenchimento de formulário para captura de leads, ao final
 <br>
 
 <p align="center">
-  <img alt="Print tela inicial pública" src=".github/preview.png" width="50%">
+  <img alt="Print tela inicial pública" src="./preview.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
